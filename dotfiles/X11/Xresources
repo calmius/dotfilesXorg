@@ -1,0 +1,84 @@
+!! Transparency (0-1):
+*.alpha: 0.85
+!! Set a default font and font size as below:
+!!*.font: Liga Iosevka Slab:size=18
+*.font: Liga Iosevka:size=17
+
+!!!! Mine
+!!!! Black
+!!*.color0:      #351b0e
+!!*.color8:      #928374 
+!!!
+!!!! Red
+!!*.color9:      #C36870
+!!*.color1:      #C36870
+!!!
+!!!! Green
+!!*.color2:       #92aa8d
+!!*.color10:       #92aa8d
+!!!
+!!!! Yellow
+!!*.color3:     #C7b48c
+!!*.color11:     #C7b48c
+!!!
+!!! Blue
+!!*.color4: #A8a6bf
+!!*.color12: #A8a6bf
+!!!
+!!!! Magenta
+!!*.color5: #A49cae
+!!*.color13: #A49cae
+!!!! Cyan
+!!*.color6:      #588056
+!!*.color14:     #8acd8f
+!!!
+!!!! White
+!!*.color7:      #ECE6DB
+!!*.color15:      #ECE6DB
+!!
+!!*.background: #2c2a33
+
+*.foreground:  #d2d8d9
+*.background:  #2b2d2e
+*.cursorColor: #708284
+!
+! Black
+*.color0:      #3b4252
+*.color8:      #4c566a
+!
+! Red
+*.color1:      #bf616a
+*.color9:      #bf616a
+!
+! Green
+*.color2:      #a3be8c
+*.color10:     #a3be8c
+!
+! Yellow
+*.color3:      #ebcb8b
+*.color11:     #ebcb8b
+!
+! Blue
+*.color4:      #A2a9cb  
+*.color12:     #A2a9cb
+! Blue
+!!!*.color4:      #8ea0a6
+!!!*.color12:     #8ea0a6
+!
+! Magenta
+*.color5:      #b48ead
+*.color13:     #b48ead
+!
+! Cyan
+*.color6:      #88c0d0
+*.color14:     #8fbcbb
+!
+! White
+*.color7:      #d8dee9
+*.color15:     #eceff4
+!
+! Bold, Italic, Underline
+*.colorBD:     #414858
+!*.colorIT:
+!*.colorUL:
+
