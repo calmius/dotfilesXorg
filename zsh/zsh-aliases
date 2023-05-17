@@ -1,0 +1,43 @@
+#!/bin/sh
+
+# confirm before overwriting something
+alias cp="cp -i"
+alias mv='mv -i'
+alias rm='rm -i'
+
+# Colorize output 
+alias grep='grep --color=auto'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias ls='exa -l --icons'
+alias lsa='exa -al --icons --no-filesize'
+
+# xclip copy
+alias copy='xclip -sel c <'
+
+# Bookmarks
+alias repo='cd /home/ethan/Programming/repo'
+alias gol='cd /home/ethan/Programming/golang'
+alias dwm='cd /home/ethan/.config/dwm'
+alias st='cd /home/ethan/.config/st'
+alias czsh='cd /home/ethan/.config/zsh'
+alias xx='cd /home/ethan/.config/X11'
+alias clan='cd /home/ethan/Programming/c'
+
+
+# Soft 
+alias n='nvim'
+    # Get rid of wget-hsts
+    alias wget='wget --hsts-file="$XDG_CACHE_HOME/wget-hsts"'
+    # sudo make clean install
+    alias comp='sudo make clean install'
+alias swap='
+    # Remap caps to escape
+    setxkbmap -option caps:escape
+    # Swap escape and caps
+    setxkbmap -option caps:swapescape
+    # Toggle layouts
+    setxkbmap -layout us,ru -option 'grp:lctrl_lshift_toggle'
+    '
+# Config
+alias addalias='nvim +200 ~/.config/zsh/zsh-aliases'

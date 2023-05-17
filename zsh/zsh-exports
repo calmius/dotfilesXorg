@@ -1,0 +1,24 @@
+#!/bin/sh
+
+export MANPAGER='nvim +Man!'
+export MANWIDTH=999
+
+export HISTFILE="${XDG_DATA_HOME:-$HOME/.local/share}/history"
+HISTSIZE=1000000
+SAVEHIST=1000000
+
+export CARGO_HOME="${XDG_DATA_HOME:-$HOME/.local/share}/cargo"
+export WGETRC="${XDG_CONFIG_HOME:-$HOME/.config}/wget/wgetrc"
+export NPM_CONFIG_USERCONFIG=$XDG_CONFIG_HOME/npm/npmrc
+export LESSHISTFILE="-"
+export WGETRC="${XDG_CONFIG_HOME:-$HOME/.config}/wget/wgetrc"
+export GNUPGHOME="${XDG_DATA_HOME:-$HOME/.local/share}/gnupg"
+
+export GOPATH="$HOME/Programming/golang/"
+
+export TERMINAL="st"
+
+# export BROWSER="qutebrowser"
+
+export EDITOR="emacsclient -t"                  # $EDITOR opens in terminal
+export VISUAL="emacsclient -c -a emacs"         # $VISUAL opens in GUI mode 

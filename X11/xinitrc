@@ -1,0 +1,42 @@
+# Remap caps to escape
+# setxkbmap -option caps:escape
+## Swap escape and caps
+setxkbmap -option caps:swapescape
+# Toggle layouts
+# setxkbmap -model pc104 -layout 'us(cmk_ed_us)',ru -option 'misc:cmk_curl_dh,grp:lctrl_lshift_toggle'
+# setxkbmap -layout us,ru -option 'grp:lctrl_lshift_toggle'
+
+# Wallpaper
+xwallpaper --zoom ./Pictures/wallpapers/leo-mendes-tmhUS7v5p3Y-unsplash.jpg
+
+# Dwmblocks
+dwmblocks & 
+# Compositor
+picom --backend glx -b 
+# Load Xresources
+xrdb -load ~/.config/X11/xresources
+# Hide mouse when typing
+xbanish &
+
+# Emacs
+emacs &
+
+# Don't Randomly Turn off
+xset s off
+xset -dpms
+xset s noblank
+# Speedy keys
+
+xset r rate 210 40
+
+# Off Blue light
+redshift &		 
+
+while :; do
+	ssh-agent dwm
+done
+while :; do
+	ssh-agent dmenu
+
+# Random wallpaper
+#~/.local/bin/randomWal  
